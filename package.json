@@ -1,11 +1,26 @@
 {
-  "name": "nodetest",
+  "name": "nodejs-test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edwin5658/nodejs-test.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Edwin5658/nodejs-test/issues"
+  },
+  "homepage": "https://github.com/Edwin5658/nodejs-test#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "pug": "^3.0.3"
+  }
 }
